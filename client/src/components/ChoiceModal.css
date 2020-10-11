@@ -1,0 +1,64 @@
+.ChoiceModal {
+	/* width: 350px;
+	height: 200px; */
+	border-radius: 12px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	box-shadow: 0 1.4px 3.6px rgba(0, 0, 0, 0.017),
+		0 3.8px 10px rgba(0, 0, 0, 0.025), 0 9px 24.1px rgba(0, 0, 0, 0.033),
+		0 30px 80px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+}
+
+.modal-container {
+	padding: 30px;
+}
+
+.modal-heading {
+	font-size: 1.8rem;
+	text-align: center;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 20px;
+}
+
+.choices {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.choices .word-choice {
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 1.6rem;
+	border: 2px solid rgba(0, 0, 0, 0.025);
+	padding: 10px 20px;
+	border-radius: 12px;
+	margin: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.choices .word-choice:hover {
+	background-color: #11a5ed;
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.bar-timer {
+	width: 100%;
+	height: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	animation: moveright 8s linear; /* Time to choose word */
+}
+
+@keyframes moveright {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

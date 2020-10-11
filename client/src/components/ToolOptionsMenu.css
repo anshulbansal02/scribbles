@@ -1,0 +1,14 @@
+.tool-icon {
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+}
+
+.tool-option.tool-type {
+	border: 0;
+	margin: 10px 20px;
+}
+
+.tool-option:hover.tool-type .tool-icon {
+	transform: scale(1.1);
+}

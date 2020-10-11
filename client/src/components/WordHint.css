@@ -1,0 +1,35 @@
+.WordHint {
+	background-color: #fff;
+	padding: 15px 30px;
+	height: 50px;
+	border-radius: 8px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	box-shadow: 0 2.6px 1.9px rgba(0, 0, 0, 0.013),
+		0 6px 4.3px rgba(0, 0, 0, 0.019), 0 10.8px 7.7px rgba(0, 0, 0, 0.023),
+		0 18px 12.8px rgba(0, 0, 0, 0.027), 0 29.6px 21.2px rgba(0, 0, 0, 0.031),
+		0 51.8px 37px rgba(0, 0, 0, 0.037), 0 112px 80px rgba(0, 0, 0, 0.05);
+}
+
+.WordHint .word-char {
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.WordHint .empty-char {
+	width: 1.8rem;
+	border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+	display: inline-block;
+}
+
+.mg-side-5 {
+	margin: 0 5px;
+}
+
+.mg-side-2 {
+	margin: 0 2px;
+}

@@ -1,0 +1,6 @@
+.Message {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	margin: 15px 0;
+}

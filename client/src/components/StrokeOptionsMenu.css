@@ -1,0 +1,18 @@
+.stroke-viz-container {
+	width: 40px;
+	height: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.stroke-viz-container .stroke-viz {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #000;
+	transition: all 0.3s;
+}

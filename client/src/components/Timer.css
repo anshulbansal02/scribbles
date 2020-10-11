@@ -1,0 +1,31 @@
+.Timer {
+	width: 45px;
+	height: 45px;
+	background-color: #fff;
+	box-shadow: 0 1.4px 3.6px rgba(0, 0, 0, 0.017),
+		0 3.8px 10px rgba(0, 0, 0, 0.025), 0 9px 24.1px rgba(0, 0, 0, 0.033),
+		0 30px 80px rgba(0, 0, 0, 0.05);
+	border-radius: 100px;
+	text-align: center;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 45px;
+}
+
+.pie {
+	width: 100%;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.pie circle {
+	fill: none;
+	stroke: rgb(0, 0, 0, 0.08);
+	stroke-width: 32;
+}

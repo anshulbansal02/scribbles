@@ -1,0 +1,59 @@
+.ToolsPanel {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 20px 30px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	border-top-left-radius: 12px;
+	background-color: #fff;
+	border-bottom-left-radius: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	box-shadow: 0 1.4px 3.6px rgba(0, 0, 0, 0.017),
+		0 3.8px 10px rgba(0, 0, 0, 0.025), 0 9px 24.1px rgba(0, 0, 0, 0.033),
+		0 30px 80px rgba(0, 0, 0, 0.05);
+}
+
+.ToolsPanel .panel-item {
+	width: 30px;
+	height: 30px;
+	margin: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.item-type-tool {
+	width: 100%;
+	height: 100%;
+}
+
+.item-type-stroke,
+.item-type-color {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-type-stroke .stroke-width,
+.item-type-color .current-color {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	background-color: #000;
+	transition: all 0.3s;
+}
+
+.item-type-color .current-color {
+	transform: scale(0.8);
+}
+
+.item-type-undo,
+.item-type-redo,
+.item-type-clear {
+	width: 80%;
+	height: 80%;
+}

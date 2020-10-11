@@ -1,0 +1,8 @@
+.ChatBox {
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+}
